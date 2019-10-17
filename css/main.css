@@ -1,0 +1,1207 @@
+/** {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }*/
+/*@import "ipad.css";
+@import "tel.css";
+@import "ordi.css";*/
+
+html {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+body  {
+  position: relative;
+  background-color: #29AAA7;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+.container-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/*// -----------------
+// code for header
+*/
+#banner {
+  background: #29AAA7;
+  color: black;
+  font-weight: blod;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-a {
+  padding-top: 16%;
+}
+
+/*for big screen */
+/*for big screen */
+/*for big screen */
+/*for big screen */
+/*for big screen */
+/*for big screen */
+
+@media screen and (min-width: 1000px) {
+
+  .banner-links {
+    margin-top: 3%;
+  }
+
+  .language-header {
+    margin-left: 80%;
+    margin-top: -4%;
+  }
+
+
+  .logo-banner {
+    width: 24%;
+    height: 24%;
+    margin-left: 15%;
+  }
+
+  .language-header  a {
+    color: white;
+    text-decoration: none;
+    font-size: 38px;
+  }
+
+  /*//--------------
+  // code for footer
+  */
+
+  .insta-logo {
+    height: 75px; width: 75px;
+    margin-top: 5%;
+  }
+
+  .site-logo-b {
+    height: 46px; width: 50px;
+  }
+  .site-logo-a {
+    border-radius: 8px; border: 1.5px solid white;
+  }
+
+
+  /*code for the content */
+
+  .text-container {
+    position: absolute;
+  /*  width: 852px;
+    height: 160px;*/
+    left: 15%;
+    top: 100%;
+    margin-top: 7%;
+  }
+
+  .text-container h3 {
+    font-size: 240%;
+    color: #FCFCFC;
+  }
+
+  .text-container h4 {
+    font-size: 215%;
+    color: #060F39;
+  }
+
+/*  .discount-text {
+    font-size: 120%;
+    color: #060F39;
+    margin-top: 9%;
+    padding-left: 4%;
+    width: 100%;
+  }
+*/
+  /*code for the form */
+
+
+  input[placeholder] {
+    color: #060F39;
+    font-size: 175%;
+    /*text-align: center;*/
+    padding: 0.8%;
+  }
+
+
+  .form-input {
+    margin-top: 4%;
+    position: absolute;
+    width: 40%;
+    height: 16%;
+    left: 0;
+
+    /* Colors/White */
+
+    background: #FCFCFC;
+    /* Colors/LightGrey */
+    border: 1.5px solid #060F39;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+
+
+
+  .form-button {
+    margin-top: 4%;
+    position: absolute;
+    width: 30%;
+    height: 16%;
+    left: 43%;
+    background: #060F39;
+    border: 1.5px solid white;
+    border-radius: 8px;
+  }
+
+  .share-buttons {
+    margin-top: 18%;
+
+  }
+
+  .share-buttons p {
+    font-family: Lato;
+    font-style: normal;
+    font-size: 30px;
+  }
+
+  #emoji-a {
+    width: 20%;
+    height: 10%;
+    font-size: 70px;
+  }
+
+  #logo-share {
+    width: 18%; height: 9%;
+  }
+
+
+  .form-button h4 {
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 26.4px;
+    letter-spacing: 2px;
+  }
+
+/*  .form-chance {
+    display: flex;
+    justify-content: center;
+
+  }*/
+}
+
+
+/*----------------------------------------------------------*/
+@media (min-width: 800px) and (max-width: 1000px) {
+
+  .banner-links {
+    margin-top: 5%;
+  }
+
+  .language-header {
+    margin-left: 80%;
+    margin-top: -4%;
+  }
+
+
+
+  .logo-banner {
+    width: 26%;
+    height: 26%;
+    margin-left: 15%;
+  }
+
+  .language-header  a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+  }
+
+  /*//--------------
+  // code for footer
+  */
+
+
+
+  /*code for the content */
+
+  .text-container {
+    position: absolute;
+  /*  width: 852px;
+    height: 160px;*/
+    left: 15%;
+    top: 100%;
+    margin-top: 7%;
+  }
+
+  .text-container h3 {
+    font-size: 190%;
+    color: #FCFCFC;
+  }
+
+  .text-container h4 {
+    font-size: 170%;
+    color: #060F39;
+  }
+
+/*  .discount-text {
+    font-size: 120%;
+    color: #060F39;
+    margin-top: 9%;
+    padding-left: 4%;
+    width: 100%;
+  }
+*/
+  /*code for the form */
+
+
+  input[placeholder] {
+    color:#060F39;
+    font-size: 130%;
+    /*text-align: center;*/
+    padding: 0.8%;
+  }
+
+
+  .form-input {
+    margin-top: 2.5%;
+    position: absolute;
+    width: 40%;
+    height: 12%;
+    left: 0;
+    /* Colors/White */
+
+    background: #FCFCFC;
+    /* Colors/LightGrey */
+
+    border: 1.5px solid #060F39;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+
+
+
+  .form-button {
+    margin-top: 2.5%;
+    position: absolute;
+    width: 26%;
+    height: 12%;
+    left: 43%;
+
+    border: 1.5px solid white;
+    background: #060F39;
+    border-radius: 8px;
+  }
+
+  .share-buttons {
+    margin-top: 17%;
+
+  }
+
+  .share-buttons p {
+    font-family: Lato;
+    font-style: normal;
+    font-size: 25px;
+
+  }
+
+  #emoji-a {
+    width: 30%;
+    height: 10%;
+    font-size: 50px
+  }
+
+  #logo-share {
+    width: 18%;
+    height: 9%;
+  }
+
+
+  .form-button h4 {
+    color: white;
+    font-weight: 450;
+    font-size: 15px;
+    margin-top: 16px;
+    letter-spacing: 2px;
+  }
+
+
+  .insta-logo {
+    height: 62px; width: 62px;
+    margin-top:8.4%;
+  }
+
+  .site-logo-b {
+    height: 33px; width: 40px;
+  }
+  .site-logo-a {
+    border-radius: 8px; border: 1.5px solid white;
+  }
+
+
+
+/*  .form-chance {
+    display: flex;
+    justify-content: center;
+
+  }*/
+}
+
+
+/*for medium screen*/
+/*for medium screen*/
+/*
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------*/
+
+
+@media (min-width: 650px) and (max-width: 800px) {
+
+
+
+
+  .banner-links {
+    margin-top: 8%;
+  }
+
+  .language-header {
+    margin-left: 80%;
+    margin-top: -4%;
+  }
+
+
+  .logo-banner {
+    width: 38%;
+    height: 38%;
+    margin-left: 15%;
+  }
+
+
+  .language-header  a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .text-container {
+    position: absolute;
+  /*  width: 852px;
+    height: 160px;*/
+
+    top: 100%;
+    margin-top: 7%;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+  }
+
+
+  .text-container h3 {
+    font-size: 220%;
+    color: #FCFCFC;
+    padding-left: 10%;
+  }
+
+  .text-container h4 {
+    font-size: 190%;
+    color: #060F39;
+    padding-left: 10%;
+  }
+
+/*  .discount-text {
+    font-size: 120%;
+    color: #060F39;
+    margin-top: 9%;
+    padding-left: 4%;
+    width: 100%;
+  }*/
+
+  /*code for the form */
+
+
+  input[placeholder] {
+    color: #060F39;
+    font-size: 135%;
+    /*text-align: center;*/
+    padding: 0.8%;
+    padding-left: 23%;
+  }
+
+
+  .form-input {
+    margin-top: 2%;
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    left: 10%;
+    right: 10%;
+
+    /* Colors/White */
+
+    background: #FCFCFC;
+    /* Colors/LightGrey */
+
+    border: 1.5px solid #060F39;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+  }
+
+
+
+  .form-button {
+    margin-top: 15%;
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    left: 10%;
+    right: 10%;
+
+    border: 1.5px solid white;
+    background: #060F39;
+    border-radius: 8px;
+  }
+
+  .share-buttons {
+    margin-top: 31%;
+    width: 100%;
+
+  }
+
+  .share-buttons p {
+    font-family: Lato;
+    font-style: normal;
+    font-size: 15px;
+
+  }
+
+  .text-share {
+    white-space: nowrap;
+  }
+
+  #emoji-a {
+    font-size: 50px;
+    height: 10%;
+    width: 50%;
+    padding-left: 31%;
+  }
+
+  #logo-share {
+    width: 37%;
+    height: 23%;
+    padding-left: 7%;
+
+  }
+
+  .form-button h4 {
+    color: white;
+    font-weight: 350;
+    font-size: 14px;
+  /*  line-height: 20px;*/
+    letter-spacing: 1px;
+    margin-top: 14.5px;
+
+  }
+
+
+  .insta-logo {
+    height: 62px; width: 62px;
+    margin-top: 4%;
+  }
+
+  .site-logo-b {
+    height: 33px; width: 40px;
+  }
+  .site-logo-a {
+    border-radius: 8px; border: 1.5px solid white;
+  }
+
+}
+
+/*--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------*/
+
+
+@media (min-width: 500px) and (max-width: 650px) {
+
+
+
+  .banner-links {
+    margin-top: 10%;
+  }
+
+  .language-header {
+    margin-left: 80%;
+    margin-top: -4%;
+  }
+
+
+
+  .logo-banner {
+    width: 44%;
+    height: 44%;
+    margin-left: 5%;
+  }
+
+
+  .language-header  a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  /*//--------------
+  // code for footer
+  */
+
+
+
+  /*code for the content */
+
+  .text-container {
+    position: absolute;
+  /*  width: 852px;
+    height: 160px;*/
+
+    top: 100%;
+    margin-top: 7%;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+  }
+
+
+  .text-container h3 {
+    font-size: 220%;
+    color: #FCFCFC;
+  }
+
+  .text-container h4 {
+    font-size: 190%;
+    color: #060F39;
+  }
+
+/*  .discount-text {
+    font-size: 120%;
+    color: #060F39;
+    margin-top: 9%;
+    padding-left: 4%;
+    width: 100%;
+  }*/
+
+  /*code for the form */
+
+
+  input[placeholder] {
+    color: #060F39;
+    font-size: 135%;
+    /*text-align: center;*/
+    padding: 0.8%;
+    padding-left: 19%;
+  }
+
+
+  .form-input {
+    margin-top: 2%;
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    left: 10%;
+    right: 10%;
+
+    /* Colors/White */
+
+    background: #FCFCFC;
+    /* Colors/LightGrey */
+
+    border: 1.5px solid #060F39;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+  }
+
+  .form-button {
+    margin-top: 16.5%;
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    left: 10%;
+    right: 10%;
+
+    border: 1.5px solid white;
+    background: #060F39;
+    border-radius: 8px;
+  }
+
+  .share-buttons {
+    margin-top: 38%;
+    width: 100%;
+
+  }
+
+  .share-buttons p {
+    font-family: Lato;
+    font-style: normal;
+    font-size: 15px;
+
+  }
+
+  .text-share {
+    white-space: nowrap;
+  }
+
+  #emoji-a {
+    font-size: 34px;
+    height: 10%;
+    width: 50%;
+    padding-left: 30%;
+  }
+
+  #logo-share {
+    width: 35%;
+    height: 22%;
+    padding-left: 5%;
+  }
+
+
+
+
+  .form-button h4 {
+    color: white;
+    font-weight: 350;
+    font-size: 14px;
+  /*  line-height: 20px;*/
+    letter-spacing: 1px;
+    margin-top: 14.5px;
+
+  }
+
+
+  .insta-logo {
+    height: 62px; width: 62px;
+    margin-top: 4%;
+  }
+
+  .site-logo-b {
+    height: 33px; width: 40px;
+  }
+  .site-logo-a {
+    border-radius: 8px; border: 1.5px solid white;
+  }
+}
+
+
+
+
+
+
+
+/*for small screen */
+/*for small screen */
+/*for small screen */
+/*for small screen */
+/*for small screen */
+/*for small screen */
+/*for small screen */
+
+@media (min-width: 350px) and (max-width: 500px) {
+
+  .banner-links {
+    margin-top: 8%;
+  }
+
+  .language-header {
+    margin-left: 80%;
+    margin-top: -4%;
+  }
+
+  .logo-banner {
+    width: 50%;
+    height: 50%;
+    margin-left: 5%;
+  }
+
+
+  .language-header  a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  /*//--------------
+  // code for footer
+  */
+
+
+
+  /*code for the content */
+
+  .text-container {
+    position: absolute;
+  /*  width: 852px;
+    height: 160px;*/
+
+    top: 100%;
+    margin-top: 7%;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+  }
+
+
+  .text-container h3 {
+    font-size: 200%;
+    color: #FCFCFC;
+  }
+
+  .text-container h4 {
+    font-size: 175%;
+    color: #060F39;
+  }
+
+/*  .discount-text {
+    font-size: 120%;
+    color: #060F39;
+    margin-top: 9%;
+    padding-left: 4%;
+    width: 100%;
+  }*/
+
+  /*code for the form */
+
+
+  input[placeholder] {
+    color: #060F39;
+    font-size: 115%;
+    /*text-align: center;*/
+    padding: 0.8%;
+    padding-left: 7%;
+  }
+
+
+  .form-input {
+    margin-top: 2%;
+    position: absolute;
+    width: 80%;
+    height: 8.5%;
+    left: 10%;
+    right: 10%;
+
+    /* Colors/White */
+
+    background: #FCFCFC;
+    /* Colors/LightGrey */
+
+    border: 1.5px solid #060F39;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+  }
+
+  .form-button {
+    margin-top: 25%;
+    position: absolute;
+    width: 80%;
+    height: 8.5%;
+    left: 10%;
+    right: 10%;
+
+    border: 1.5px solid white;
+    background: #060F39;
+    border-radius: 8px;
+  }
+
+  .share-buttons {
+    margin-top: 50%;
+    width: 100%;
+
+  }
+
+  .share-buttons p {
+    font-family: Lato;
+    font-style: normal;
+    font-size: 15px;
+
+  }
+
+  .text-share {
+    white-space: nowrap;
+  }
+
+  #emoji-a {
+    font-size: 35px;
+    height: 10%;
+    width: 70%;
+    padding-left: 25%;
+  }
+
+  #logo-share {
+    width: 46%;
+    height: 33%;
+    padding-left: 10%;
+
+  }
+
+  .form-button h4 {
+    color: white;
+    font-weight: 350;
+    font-size: 14px;
+  /*  line-height: 20px;*/
+    letter-spacing: 1px;
+    margin-top: 15px;
+
+  }
+
+
+  .insta-logo {
+    height: 62px; width: 62px;
+    margin-top: 4%;
+  }
+
+  .site-logo-b {
+    height: 33px; width: 40px;
+  }
+  .site-logo-a {
+    border-radius: 8px; border: 1.5px solid white;
+  }
+
+}
+
+@media (min-width: 250px) and (max-width: 350px) {
+
+  .banner-links {
+    margin-top: 8%;
+  }
+
+  .language-header {
+    margin-left: 80%;
+    margin-top: -4%;
+  }
+
+
+  .language-header  a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  /*//--------------
+  // code for footer
+  */
+
+  .logo-banner {
+    width: 55%;
+    height: 55%;
+    margin-left: 5%;
+  }
+
+  /*code for the content */
+
+  .text-container {
+    position: absolute;
+  /*  width: 852px;
+    height: 160px;*/
+
+    top: 100%;
+    margin-top: 7%;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+  }
+
+
+  .text-container h3 {
+    font-size: 170%;
+    color: #FCFCFC;
+  }
+
+  .text-container h4 {
+    font-size: 150%;
+    color: #060F39;
+  }
+
+/*  .discount-text {
+    font-size: 120%;
+    color: #060F39;
+    margin-top: 9%;
+    padding-left: 4%;
+    width: 100%;
+  }*/
+
+  /*code for the form */
+
+
+  input[placeholder] {
+    color: #060F39;
+    font-size: 90%;
+    /*text-align: center;*/
+    padding: 0.8%;
+    padding-left: 4%;
+  }
+
+
+  .form-input {
+    margin-top: 2%;
+    position: absolute;
+    width: 80%;
+    height: 8.5%;
+    left: 10%;
+    right: 10%;
+
+    /* Colors/White */
+
+    background: #FCFCFC;
+    /* Colors/LightGrey */
+
+    border: 1.5px solid #060F39;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+  }
+
+  .form-button {
+    margin-top: 33%;
+    position: absolute;
+    width: 80%;
+    height: 8.5%;
+    left: 10%;
+    right: 10%;
+
+    border: 1.5px solid white;
+    background: #060F39;
+    border-radius: 8px;
+  }
+
+  .share-buttons {
+    margin-top: 63%;
+    width: 100%;
+
+  }
+
+  .share-buttons p {
+    font-family: Lato;
+    font-style: normal;
+    font-size: 15px;
+
+  }
+
+  .text-share {
+    white-space: nowrap;
+  }
+
+  #emoji-a {
+    font-size: 30px;
+    height: 10%;
+    width: 70%;
+    padding-left: 21%;
+  }
+
+  #logo-share {
+    width: 54%;
+    height: 39%;
+    padding-left: 10%;
+
+  }
+
+
+  .form-button h4 {
+    color: white;
+    font-weight: 350;
+    font-size: 14px;
+  /*  line-height: 20px;*/
+    letter-spacing: 1px;
+    margin-top: 12px;
+
+  }
+
+
+  .insta-logo {
+    height: 62px; width: 62px;
+    margin-top: 4%;
+  }
+
+  .site-logo-b {
+    height: 33px; width: 40px;
+  }
+  .site-logo-a {
+    border-radius: 8px; border: 1.5px solid white;
+  }
+
+
+}
+
+@media (min-width: 0px) and (max-width: 250px) {
+
+  .banner-links {
+    margin-top: 8%;
+  }
+
+  .language-header {
+    margin-left: 80%;
+    margin-top: -4%;
+  }
+
+
+  .language-header  a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  /*//--------------
+  // code for footer
+  */
+
+  .logo-banner {
+    width: 65%;
+    height: 65%;
+    margin-left: 5%;
+  }
+
+
+
+  /*code for the content */
+
+  .text-container {
+    position: absolute;
+  /*  width: 852px;
+    height: 160px;*/
+
+    top: 100%;
+    margin-top: 7%;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+  }
+
+
+  .text-container h3 {
+    font-size: 120%;
+    color: #FCFCFC;
+  }
+
+  .text-container h4 {
+    font-size: 110%;
+    color: #060F39;
+  }
+
+/*  .discount-text {
+    font-size: 120%;
+    color: #060F39;
+    margin-top: 9%;
+    padding-left: 4%;
+    width: 100%;
+  }*/
+
+  /*code for the form */
+
+
+  input[placeholder] {
+    color: #060F39;
+    font-size: 60%;
+    /*text-align: center;*/
+    padding: 0.8%;
+    padding-left: 4%;
+  }
+
+
+  .form-input {
+    margin-top: 2%;
+    position: absolute;
+    width: 80%;
+    height: 8.5%;
+    left: 10%;
+    right: 10%;
+
+    /* Colors/White */
+
+    background: #FCFCFC;
+    /* Colors/LightGrey */
+
+    border: 1.5px solid #060F39;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+  }
+
+  .form-button {
+    margin-top: 33%;
+    position: absolute;
+    width: 80%;
+    height: 8.5%;
+    left: 10%;
+    right: 10%;
+
+    border: 1.5px solid white;
+    background: #060F39;
+    border-radius: 8px;
+  }
+
+  .share-buttons {
+    margin-top: 68%;
+    width: 100%;
+
+  }
+
+  .share-buttons p {
+    font-family: Lato;
+    font-style: normal;
+    font-size: 15px;
+
+  }
+
+  .text-share {
+    white-space: nowrap;
+  }
+
+  #emoji-a {
+    font-size: 18px;
+    height: 10%;
+    width: 70%;
+    padding-left: 21%;
+  }
+
+  #logo-share {
+    width: 60%;
+    height: 45%;
+    padding-left: 10%;
+
+  }
+
+
+
+
+  .form-button h4 {
+    color: white;
+    font-weight: 350;
+    font-size: 12px;
+  /*  line-height: 20px;*/
+    letter-spacing: 1px;
+    margin-top: 8px;
+
+  }
+
+
+  .insta-logo {
+    height: 62px; width: 62px;
+    margin-top: 4%;
+  }
+
+  .site-logo-b {
+    height: 33px; width: 40px;
+  }
+  .site-logo-a {
+    border-radius: 8px; border: 1.5px solid white;
+  }
+
+}
+
