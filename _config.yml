@@ -1,11 +1,11 @@
-title: Spirulin'azur
-email: pelegrijulien@hotmail.fr
+title: title
+email: your_mail
 description: >- # this means to ignore newlines until "baseurl:"
-  Description of Spirunilazur website.
+  Description of your website.
 # baseurl: "/spirunilazur" # the subpath of your site, e.g. /blog
-url: "https://www.spirulinazur.com/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  PelDoingCode
+url: "url of your website" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: YYY
+github_username: YYY
 
 # Build settings
 theme: minima
@@ -26,15 +26,16 @@ kramdown:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+# we don't want to track all this shit ***
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
